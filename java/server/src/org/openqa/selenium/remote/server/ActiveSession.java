@@ -40,4 +40,6 @@ public interface ActiveSession extends CommandHandler, WrapsDriver {
   TemporaryFilesystem getFileSystem();
 
   void stop();
+
+  boolean isActive();
 }
